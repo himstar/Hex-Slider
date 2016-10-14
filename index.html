@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<title> Hexa Flip Slider For Blog and Website | TricksWay - Tutorial And Tips</title>
+        <meta name="keywords" content="html designs, html design codes, css designs, css design codes, css3 designs, new design codes, beautiful design codes">
+        <meta name="description" content="Tricksway.com is a site cover windows tools, html codes, css designs and tips which makes you smarter">
+        <meta name="author" content="Himanshu Dhiraj Mishra">
+        <link rel="stylesheet" type="text/css" href="default.css" />
+        <link href="hexaflip.css" rel="stylesheet" type="text/css">
+        <link href="demo.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+    <center>
+        <script type="text/javascript"><!--
+            google_ad_client = "ca-pub-2479197994239346";
+            /* cpanel */
+            google_ad_slot = "1154289340";
+            google_ad_width = 728;
+            google_ad_height = 90;
+            //-->
+            </script>
+            <script type="text/javascript"
+            src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+        </script>
+    </center>
+        <div class="container">
+            <div class="main">
+                <div class="buttons">
+                    <div id="prev" class="disc-button">&lt;</div>
+                    <div id="next" class="disc-button">&gt;</div>
+                </div>
+                <div id="hexaflip-demo4" class="demo"></div>
+            </div>
+        </div>
+    <script src="hexaflip.js"></script>
+    <script>
+        var hexaDemo4,
+            images = [
+                './images/1.jpg',
+                './images/2.jpg',
+                './images/3.jpg',
+                './images/4.jpg',
+                './images/5.jpg',
+                './images/6.jpg'
+            ];
+        document.addEventListener('DOMContentLoaded', function(){
+            hexaDemo4 = new HexaFlip(document.getElementById('hexaflip-demo4'), {set: images},{
+                size: 500
+            });
+            document.getElementById('prev').addEventListener('click', function(){
+                hexaDemo4.flipBack();
+            }, false);
+            
+            document.getElementById('next').addEventListener('click', function(){
+                hexaDemo4.flip();
+            }, false);
+
+        }, false);
+
+    </script>
+    <center>
+        <script type="text/javascript"><!--
+            google_ad_client = "ca-pub-2479197994239346";
+            /* cpanel */
+            google_ad_slot = "1154289340";
+            google_ad_width = 728;
+            google_ad_height = 90;
+            //-->
+            </script>
+            <script type="text/javascript"
+            src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+        </script>
+        <script type="text/javascript"><!--
+            google_ad_client = "ca-pub-2479197994239346";
+            /* cpanel */
+            google_ad_slot = "1154289340";
+            google_ad_width = 728;
+            google_ad_height = 90;
+            //-->
+            </script>
+            <script type="text/javascript"
+            src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+        </script>   
+    </center>
+
+    </body>
+</html>
